@@ -1,6 +1,6 @@
 {
   "name": "craco-webpack-resolve",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Modify the webpack resolve section of CRA",
   "repository": "https://github.com/brandonryan/craco-webpack-resolve",
   "author": "Brandon Ryan <bjryan19@protonmail.com>",

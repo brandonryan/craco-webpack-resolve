@@ -4,6 +4,7 @@ export function overrideWebpackConfig({webpackConfig, cracoConfig, pluginOptions
     }
 
     applyOverrides(webpackConfig.resolve, pluginOptions.resolve)
+    return webpackConfig
 }
 
 function applyOverrides(target, override) {
