@@ -7,7 +7,7 @@ export function overrideWebpackConfig({webpackConfig, cracoConfig, pluginOptions
 }
 
 function applyOverrides(target, override) {
-    for(const key of override) {
+    for(const key in override) {
         if (Array.isArray(target[key])) {
             target[key].push(override[key])
         } else if(typeof target[key] === "object") {
