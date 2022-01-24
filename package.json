@@ -1,9 +1,10 @@
 {
   "name": "craco-webpack-resolve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modify the webpack resolve section of CRA",
   "repository": "https://github.com/brandonryan/craco-webpack-resolve",
   "author": "Brandon Ryan <bjryan19@protonmail.com>",
+  "keywords": ["craco", "webpack", "craco-webpack", "resolve", "create-react-app", "cra"],
   "license": "MIT",
   "type": "module",
   "main": "./cjs/index.js",
