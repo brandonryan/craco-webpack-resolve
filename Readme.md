@@ -11,7 +11,7 @@ export default {
         { 
             plugin: webpackResolve, 
             resolve: {
-                fallbacks: {
+                fallback: {
                     zlib: require.resolve('browserify-zlib')
                 }
             } 
