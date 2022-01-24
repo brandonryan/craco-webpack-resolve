@@ -1,0 +1,26 @@
+{
+  "name": "craco-webpack-resolve",
+  "version": "1.0.0",
+  "description": "Modify the webpack resolve section of CRA",
+  "repository": "https://github.com/brandonryan/craco-webpack-resolve",
+  "author": "Brandon Ryan <bjryan19@protonmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "main": "./cjs/index.js",
+  "module": "./index.js",
+  "exports": {
+    "require": "./cjs/index.js",
+    "import": "./index.js"
+  },
+  "scripts": {
+    "prepare": "babel index.js --out-dir ./cjs"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0"
+  },
+  "dependencies": {
+    "@craco/craco": "^6.4.3"
+  }
+}
